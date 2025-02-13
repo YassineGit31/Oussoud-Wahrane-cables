@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oussoud Wahrane Câbles Électrique</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/LOGO CABLE ORANGE.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <meta name="description" content="Achetez des fils et câbles électriques de haute qualité en Algérie chez Oussoud Wahrane. Livraison rapide et prix compétitifs.">
+    <meta name="keywords" content="fils électriques, câbles électriques, cuivre nu, Oussoud Wahrane, Algérie,Oran, câbles électriques en Algérie, fils électriques en Algérie, cuivre nu en Algérie">
+
+</head>
+
+<body>
+    <section class="home" id="home">
+      <div class="overlay"></div>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="container" data-aos="fade-down" data-aos-delay="4000" data-aos-duration="1000">
+                <!-- Menu Button -->
+                <i class="fa-solid fa-bars btn-menu" id="menu-icon"></i>
+
+                <!-- Navigation Menu -->
+                <ul class="nav-links">
+                    <i class="fa-solid fa-x btn-close" id="close-icon"></i>
+                    <li><a href="#home" data-aos="fade-right" data-aos-delay="600">Accueil</a></li>
+                    <li><a href="#about" data-aos="fade-right" data-aos-delay="800">A propos</a></li>
+
+                    <li>
+                      <a href="#" id="produits-item" data-aos="fade-right" data-aos-delay="1000" onclick="toggleSubList()">Produits</a>
+                      <ul id="subList">
+                        <a href="cables.html" target="_blank"><li>Cables</li></a>
+                        <a href="fils.html" target="_blank"><li>Fils</li></a>
+                        <a href="cuivre.html" target="_blank"><li>Cuivre</li></a>                        
+                      </ul>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <img src="./img/LOGO CABLE ORANGE.png" alt="Logo">
+                </div>
+
+                <!-- Right Contact Button -->
+                <ul class="contact-btn">
+                    <li>
+                        <a href="#contact" class="contact-button" data-aos="fade-left" data-aos-delay="600">
+                            <button class="font-sans flex justify-center gap-2 items-center mx-auto shadow-xl text-lg text-white bg-[#FF6A00] backdrop-blur-md lg:font-semibold isolation-auto before:absolute before:w-full before:transition-all before:duration-500 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#004A7C] hover:text-white before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-500 relative z-10 px-4 py-2 overflow-hidden border-2 border-[#2C3E50] rounded-full group" type="submit">
+                                Contactez-nous
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 19" class="w-8 h-8 justify-end bg-white group-hover:rotate-180 group-hover:bg-[#004A7C] text-[#004A7C] ease-linear duration-300 rounded-full border border-[#2C3E50] group-hover:border-none p-2 rotate-45">
+                                    <path class="fill-[#2C3E50] group-hover:fill-white" d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"></path>
+                                </svg>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1 class="animate__animated animate__zoomIn" data-aos="zoom-in" data-aos-delay="500">
+                Bienvenue à Oussoud Wahrane Câbles Électrique
+            </h1>
+            <div class="flex justify-center gap-12 mt-12 mb-2" id="hero-cards">
+                <!-- First Card -->
+                <div class="relative w-full sm:w-1/2 lg:w-1/3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="relative flex flex-col rounded-xl bg-gradient-to-br from-[rgba(203,213,225,0.3)] to-[rgba(203,213,225,0.8)] bg-clip-border text-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-clip-border shadow-lg group">
+                            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./img/fils-electriques-lm.png'); opacity: 0.9;"></div>
+                            <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:20px_20px] animate-pulse"></div>
+                        </div>
+                        <div class="p-6">
+                            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased group-hover:text-blue-600 transition-colors duration-300">
+                                Fils électriques
+                            </h5>
+                        </div>
+                        <div class="p-6 pt-0">
+                            <a href="fils.html" target="_blank">
+                                <button class="group relative w-full inline-flex items-center justify-center px-6 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-0.5">
+                                    <span class="relative flex items-center gap-2 text-xs">
+                                        Nos fils
+                                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" class="w-5 h-5 transform transition-transform group-hover:translate-x-1">
+                                            <path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Card -->
+                <div class="relative w-full sm:w-1/2 lg:w-1/3" data-aos="fade-up" data-aos-delay="800">
+                    <div class="relative flex flex-col rounded-xl bg-gradient-to-br from-[rgba(203,213,225,0.3)] to-[rgba(203,213,225,0.8)] bg-clip-border text-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-clip-border shadow-lg group">
+                            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./img/big-to-cable.jpg'); opacity: 0.9;"></div>
+                            <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:20px_20px] animate-pulse"></div>
+                        </div>
+                        <div class="p-6">
+                            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased group-hover:text-blue-600 transition-colors duration-300">
+                                Câbles Électriques
+                            </h5>
+                        </div>
+                        <div class="p-6 pt-0">
+                            <a href="cables.html" target="_blank">
+                                <button class="group relative w-full inline-flex items-center justify-center px-6 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-0.5">
+                                    <span class="relative flex items-center gap-2 text-xs">
+                                        Nos Câbles
+                                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" class="w-5 h-5 transform transition-transform group-hover:translate-x-1">
+                                            <path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Card -->
+                <div class="relative w-full sm:w-1/2 lg:w-1/3" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="relative flex flex-col rounded-xl bg-gradient-to-br from-[rgba(203,213,225,0.3)] to-[rgba(203,213,225,0.8)] bg-clip-border text-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-clip-border shadow-lg group">
+                            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./img/H8edafb286a6b458286be838280db79f8q.avif'); opacity: 0.9;"></div>
+                            <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:20px_20px] animate-pulse"></div>
+                        </div>
+                        <div class="p-6">
+                            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased group-hover:text-blue-600 transition-colors duration-300">
+                                Cuivre Nu
+                            </h5>
+                        </div>
+                        <div class="p-6 pt-0">
+                            <a href="cables.html" target="_blank">
+                                <button class="group relative w-full inline-flex items-center justify-center px-6 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-0.5">
+                                    <span class="relative flex items-center gap-2 text-xs">
+                                        Nos Cuivre
+                                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" class="w-5 h-5 transform transition-transform group-hover:translate-x-1">
+                                            <path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </a>
+
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <p class="animate__animated animate__lightSpeedInRight">
+                Découvrez nos câbles électriques et cuivre nu,
+                conçus pour simplifier vos projets et garantir votre tranquillité d'esprit.
+            </p>
+        </div>
+       
+        
+    </section>
+    <section class="about-section" id="about">
+          <h1 class="m-10" style="padding: .5rem 0;" data-aos="fade-right" data-aos-duration="1200">
+            Qui sommes-nous ?
+          </h1>
+          <a href="./NV  fiche techenique.docx" download="./NV  fiche techenique.docx" class="animated-button1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Notre fiche technique
+          </a>
+        <main class="boxes">
+            <div class="box box1">
+                <i class="fa-solid fa-building" style="color: #f66b03;" data-aos="fade-down" data-aos-duration="1000" ></i>
+                <h2 class="title p-4  [padding-block:2.5rem] text-[rgb(13,73,142)] text-center" data-aos="fade-left" data-aos-duration="1400">
+                    <strong>Oussoud Wahrane </strong> est une entreprise basée à Oran, spécialisée dans la fabrication et la distribution de câbles et fils électriques et cuivre nu.
+                </h2>
+                <img src="./img/Ossod-hangar-pc.jpeg" alt="" data-aos="fade-down" data-aos-duration="1400">
+            </div>
+            <div class="box box2">
+                <i class="fa-solid fa-map-pin" style="color: #f76b03;" data-aos="fade-down" data-aos-duration="1000"></i>
+                <h1 data-aos="fade-left" data-aos-duration="1400">Section 09 iLot 225 <br> Betioua - Oran - Algérie</h1>
+                <div class="map" data-aos="fade-down" data-aos-duration="1400">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4229.517836491755!2d-0.22325711628768496!3d35.76815186681632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e0f00567b49b3%3A0x869889bab008227e!2sSARL%20oussoud%20Wahran!5e0!3m2!1sfr!2sdz!4v1739032739012!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+            </div>
+            <div class="box box3">
+                <i class="fa-regular fa-comment" style="color: #f76b03;" data-aos="fade-down" data-aos-duration="1000"></i>
+                <section id="testimonials">
+                    <h2 data-aos="fade-left" data-aos-duration="1400">Feedbacks</h2>
+                        <button class="btn-box" data-aos="fade-left" data-aos-duration="1400"><a href="https://www.google.com/maps/place/SARL+oussoud+Wahran/@35.76838,-0.220388,17z/data=!4m18!1m9!3m8!1s0xd7e0f00567b49b3:0x869889bab008227e!2sSARL+oussoud+Wahran!8m2!3d35.76838!4d-0.220388!9m1!1b1!16s%2Fg%2F11vyby45v4!3m7!1s0xd7e0f00567b49b3:0x869889bab008227e!8m2!3d35.76838!4d-0.220388!9m1!1b1!16s%2Fg%2F11vyby45v4?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D">
+                            votre feedback</a></button>
+                <a data-aos="fade-down" data-aos-duration="1400" href="https://www.google.com/maps/place/SARL+oussoud+Wahran/@35.76838,-0.220388,17z/data=!4m18!1m9!3m8!1s0xd7e0f00567b49b3:0x869889bab008227e!2sSARL+oussoud+Wahran!8m2!3d35.76838!4d-0.220388!9m1!1b1!16s%2Fg%2F11vyby45v4!3m7!1s0xd7e0f00567b49b3:0x869889bab008227e!8m2!3d35.76838!4d-0.220388!9m1!1b1!16s%2Fg%2F11vyby45v4?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D">
+                  <img src="./img/Avis-map.jpg" alt="avis" id="avisMap">
+                </a>
+                </section>
+            </div>
+        </main>
+        <hr>
+          <p class="subtitle" data-aos="zoom-in" data-aos-duration="1600">
+            <strong>Nos Engagements :</strong> Qualité, sécurité et conformité aux normes pour répondre aux exigences des professionnels et industriels.
+          </p>    
+          </section>  
+          
+          
+          <!--  services carousel -->
+          <section class="services relative bg-gradient-to-r from-slate-200 via-white to-white bg-cover bg-center bg-no-repeat py-12" data-aos="zoom-in" data-aos-duration="1300">
+            <img src="./img/undraw_bookmarks_i66k.png" alt="undrwar about us" class="undraw absolute bottom-2 left-96 h-auto -z-1" data-aos="fade-right" data-aos-duration="1200" style="opacity: 0.1;" />
+            <h1 class="services-title text-2xl font-bold text-left text-[rgb(13,73,142)] my-4 ml-32 z-10" data-aos="fade-right" data-aos-duration="1200">
+              Pourquoi nous choisir ?
+            </h1>
+            <div class=" rounded-md relative flex flex-col items-center justify-center w-full max-w-5xl mx-auto my-16" data-aos="fade-up" data-aos-duration="1200">
+              <div class="relative overflow-hidden w-full rounded-xl  ">
+                <div
+                  class="flex transition-transform duration-500 ease-in-out"
+                  id="carousel"
+                >
+                  <!-- Slide 1 -->
+                  <div class="flex-shrink-0 w-full px-8 flex flex-col items-center text-center py-8" data-aos="fade-down" data-aos-duration="1600">
+                    <img
+                      src="img/fils-electric.jpg"
+                      alt="Câbles de haute qualité"
+                      class="w-1/4 h-auto rounded-lg shadow-md mb-6"
+                    />
+                    <h3 class="text-2xl font-bold text-gray-800">Câbles et fils de haute qualité</h3>
+                    <p class="mt-4 text-gray-600" animate__animated animate__lightSpeedInRight>
+                      Nos câbles assurent une performance optimale et une durabilité
+                      exceptionnelle. <br><small>1/3</small>
+                    </p>
+                  </div>
+          
+                  <!-- Slide 2 -->
+                  <div class="flex-shrink-0 w-full px-8 flex flex-col items-center text-center py-8 data-aos="fade-down" data-aos-duration="1600"">
+                    <img
+                      src="img/ready-to-delivery.jpg"
+                      alt="Livraison rapide"
+                      class="w-1/4 h-auto rounded-lg shadow-md mb-6"
+                    />
+                    <h3 class="text-2xl font-bold text-gray-800">Livraison rapide</h3>
+                    <p class="mt-4 text-gray-600" animate__animated animate__lightSpeedInRight>
+                      Nous livrons rapidement de grandes quantités avec une logistique
+                      efficace. <br><small>2/3</small>
+                    </p>
+                  </div>
+          
+                  <!-- Slide 3 -->
+                  <div class="flex-shrink-0 w-full px-8 flex flex-col items-center text-center py-8 data-aos="fade-down" data-aos-duration="1600"">
+                    <img
+                      src="img/cables-in-water.jpg"
+                      alt="Équipe expérimentée"
+                      class="w-1/4 h-auto rounded-lg shadow-md mb-6"
+                    />
+                    <h3 class="text-2xl font-bold text-gray-800">Équipe expérimentée</h3>
+                    <p class="mt-4 text-gray-600" animate__animated animate__lightSpeedInRight>
+                      Nous collaborons avec des leaders industriels pour garantir la
+                      meilleure qualité.
+                        <br><small>3/3</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="flesh absolute flex top-[36%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 gap-[300px]" >
+                    <button
+                      class="bg-slate-200 p-4 rounded-full shadow-md hover:bg-[#f76b03] hover:text-white transition-all duration-300 focus:ring-4 focus:ring-orange-400"
+                      onclick="prevSlide()"
+                    >
+                    <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button
+                      class="bg-slate-200 p-4 rounded-full shadow-md hover:bg-[#f76b03] hover:text-white transition-all duration-300 focus:ring-4 focus:ring-orange-400"
+                      onclick="nextSlide()"
+                    >
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+              </div>              
+            </div>
+          </section>
+          <section class="contact relative h-[100vh] bg-orange-600 flex justify-around" id="contact">
+            <div class="text mt-24" data-aos="fade-left" data-aos-duration="1200" style="color: white;">
+                <h1 class="contact-title text-5xl mx-8">Contactez-nous</h1>
+                <small><p class="contact-subtitle ml-16" style="color: rgb(255, 223, 163);">Un lien direct pour éclairer vos projets</p></small>
+                 <div class="contact-info my-10 mx-12 flex flex-col items-start justify-center gap-4">
+                                    <div class="phone flex items-center">
+                                    <a href="tel:+213550160825">
+                                    <i class="fa-solid fa-phone text-blue-400 mx-3 animate-bounce"></i>
+                                    +213 550 16 08 25
+                                    </a>
+                                    </div>
+
+                                    <div class="map flex items-center mx-4">
+                                        <a href="https://www.google.com/maps/place/SARL+oussoud+Wahran/@35.76838,-0.220388,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e0f00567b49b3:0x869889bab008227e!8m2!3d35.76838!4d-0.220388!16s%2Fg%2F11vyby45v4?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
+                                         target="_blank"><i class="fa-solid fa-location-dot animate-bounce text-yellow-300"></i></a>
+                                        <p class="mx-4">Section 09 iLot 225
+                                            Betioua - Oran - Algérie</p>
+                                    </div>
+
+                                    <div class="gmail flex items-center mx-4">
+                                        <a href="mailto:oussoudwahrane.cable@gmail.com"><i class="fa-brands fa-google animate-bounce text-purple-500 ">
+                                        </i><span class="mx-2"></span>oussoudwahrane.cable@gmail.com</a>
+                                    </div>
+
+                                    <div class="more-infos flex flex-col mx-4 text-orange-300 ">
+                                        <a href="cables.html" class="hover:text-blue-400"><i class="fa-solid fa-bolt text-orange-300 hover:text-yellow-400 "></i> nos cables</a>
+                                        <a href="fils.html" class="hover:text-blue-400"><i class="fa-solid fa-bolt text-orange-300 hover:text-yellow-400"></i> nos fils </a>
+                                        <a href="cuivre.html" class="hover:text-blue-400"><i class="fa-solid fa-bolt text-orange-300 hover:text-yellow-400"></i> nos cuivre </a>
+                                    </div>
+                                    
+                </div>
+            </div>
+                                <div class="images flex flex-col justify-center items-center w-1/3 h-fit -z-1 my-auto" data-aos="fade-right" data-aos-duration="1200" style="opacity: 1;">
+                                    <img src="./img/mail-sent.png" alt="illustration of a man trying to contact">
+                                    <div class="socials flex items-center mx-4">
+                                        <ul class="wrapper">
+                                            <li class="icon facebook">
+                                                <a href="https://web.facebook.com/profile.php?id=61572931412151&locale=fr_FR" target="_blank">
+                                                    <span class="tooltip">Facebook</span>
+                                            <svg
+                                                viewBox="0 0 320 512"
+                                                height="1.2em"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                                                ></path>
+                                            </svg>
+                                                </a>
+                                            
+                                            </li>
+                                            <li class="icon instagram">
+                                                <a href="https://www.instagram.com/oussoud_wahrane/" target="_blank">
+                                                    <span class="tooltip">Instagram</span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="1.2em"
+                                                fill="currentColor"
+                                                class="bi bi-instagram"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                                                ></path>
+                                            </svg>
+                                                </a>
+                                            
+                                            </li>
+                                        </ul>
+
+                                </div>
+                                </div>
+          </section>
+          <footer class="bg-blue-950 text-center py-4">
+            <p class="text-gray-400">&copy; 2025 Oussoud Wahrane Câbles Électrique. Tous droits réservés.</p>
+        </footer>
+          
+    <!-- JavaScript -->
+    <script src="cables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Global animation duration
+            once: false, // Animations will only happen once
+        });
+    </script>
+    
+</body>
+
+</html>
